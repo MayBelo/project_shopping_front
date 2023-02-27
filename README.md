@@ -1,1 +1,2 @@
-# project_shopping_front
+# shopping_react
+shopping cart 

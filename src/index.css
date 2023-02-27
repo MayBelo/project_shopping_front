@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 30px auto;
+  overflow: auto;
+  min-height: 180px;
+  border: 3px solid rgb(161, 164, 167);
+  padding: 30px;
+  border-radius: 5px;
+  
+}
+
+
+
+/* .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+} */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 38px;
+  text-shadow: 2px 2px 5px rgb(76, 78, 82);
+  color:rgb(99, 96, 96);
+
+}
+
+
+.btn {
+  display: inline-block;
+  background-image: linear-gradient(to bottom right, rgb(187, 156, 156), rgb(187, 187, 163));  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 100px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+.task {
+  background: #b67979;
+  margin: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.task.reminder {
+  border-left: 5px solid green;
+}
+
+.task h3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.add-form {
+  margin-bottom: 40px;
+}
+
+.form-control {
+  margin: 20px 0;
+}
+
+.form-control label {
+  display: block;
+}
+
+.form-control input {
+  width: 100%;
+  height: 40px;
+  margin: 5px;
+  padding: 3px 7px;
+  font-size: 17px;
+}
+
+.form-control-check {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form-control-check label {
+  flex: 1;
+}
+
+.form-control-check input {
+  flex: 2;
+  height: 20px;
+}
+
+footer {
+  margin-top: 30px;
+  text-align: center;
+}
+.necklaces {
+  position: absolute;
+  top: 80px;
+  right: 10;
+  width: 200px;
+  height: 100px;
+  border: 3px solid #ad2169;
+}
+.bracelets {
+  position: absolute;
+  top: 200px;
+  right: 10;
+  width: 200px;
+  height: 100px;
+  border: 3px solid #e4a4db;
+}.earrings {
+  position: absolute;
+  top: 300px;
+  right: 10;
+  width: 200px;
+  height: 100px;
+  border: 3px solid #f4db4a;
+}.rings {
+  position: absolute;
+  top: 80px;
+  right: 10;
+  width: 200px;
+  height: 100px;
+  border: 3px solid #cd5563;
+}
+
+/* //////// */
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: bold;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: bold;
+  cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+
